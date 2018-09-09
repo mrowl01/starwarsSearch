@@ -1,28 +1,25 @@
-.App {
-  text-align: center;
-}
+body{
+  color:white;
+  background-image:url('https://images.freeimages.com/images/large-previews/3a6/constellation-orion-1382536.jpg');
+  background-color:black;
+  /* Full height */
+    height: 100%;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+ }
+h1 {
+  font-size:150%;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+ .container{
+  margin-top:120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+ }

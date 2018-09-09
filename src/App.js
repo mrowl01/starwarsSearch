@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import FormatResults from './FormatResults'; 
 import SearchBar from './SearchBar';
@@ -7,7 +6,7 @@ import Results from './Results';
 
 class App extends Component {
   constructor(){
-    super()
+    super()  
     this.state = {
       results:[]
     }
@@ -31,15 +30,14 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
-        <div id="body">
-          <h1 > Search StarWars Info </h1>
+      <div className = 'container tc'>
+        <div className = '6rem'>
+          <h1  > StarWars Info </h1>
+        </div>
           <p>Enter your search terms below</p>
           <SearchBar change = {this.onChange} search= {this.onSearch} ></SearchBar>
           <Results theResults = {this.state.results}></Results>
-        </div>
       </div>
-
     );
   }
 }
