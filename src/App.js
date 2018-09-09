@@ -3,6 +3,7 @@ import './App.css';
 import FormatResults from './FormatResults'; 
 import SearchBar from './SearchBar';
 import Results from './Results'; 
+import Scroll from './Scroll';
 
 class App extends Component {
   constructor(){
@@ -36,7 +37,9 @@ class App extends Component {
         </div>
           <p>Enter your search terms below</p>
           <SearchBar change = {this.onChange} search= {this.onSearch} ></SearchBar>
-          <Results theResults = {this.state.results}></Results>
+          <Scroll>
+            <Results theResults = {this.state.results}></Results>
+          </Scroll>
       </div>
     );
   }
