@@ -4,6 +4,7 @@ import FormatResults from './FormatResults';
 import SearchBar from './SearchBar';
 import Results from './Results'; 
 import Scroll from './Scroll';
+import ErrorBoundary from './ErrorBoundary';
 
 class App extends Component {
   constructor(){
@@ -39,7 +40,9 @@ class App extends Component {
           <p>Enter your search terms below</p>
           <SearchBar change = {this.onChange} search= {this.onSearch} ></SearchBar>
           <Scroll>
-            <Results theResults = {this.state.results}></Results>
+            <ErrorBoundary>
+              <Results theResults = {this.state.results}></Results>
+            </ErrorBoundary>
           </Scroll>
       </div>
     );
