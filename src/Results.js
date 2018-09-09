@@ -16,9 +16,11 @@ class Results extends Component {
 			return <FormatResults key={theResults[i].name} name= {theResults[i].name} 
 			link= {theResults[i].url} backgroundImage = {backimages[randomImageGen()].url} />
 		})
-		return (
+		return !resultArray.length ? //if length 0 then display loading , else render robots
+		<h3> No Results </h3> 
+		:
+		(
 			<div>
-				{console.log(randomImageGen())}
 				{resultArray}
 			</div>
 		)

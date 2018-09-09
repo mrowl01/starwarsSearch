@@ -1,9 +1,9 @@
 body{
-  color:white;
-  background-image:url('https://images.freeimages.com/images/large-previews/3a6/constellation-orion-1382536.jpg');
-  background-color:black;
-  /* Full height */
-    height: 100%;
+    color:white;
+    background-image:url('https://images.freeimages.com/images/large-previews/3a6/constellation-orion-1382536.jpg');
+    background-color:black;
+    /* Full height */
+      height: 100%;
 
     /* Center and scale the image nicely */
     background-position: top;
@@ -12,8 +12,12 @@ body{
     display:flex;
  }
 h1 {
-  font-size:150%;
-}
+    font-family: 'Star Jedi Hollow Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Star Jedi Hollow Regular'), url('Starjhol.woff') format('woff');
+  }
+
  .container{
   margin-top:120px;
   position: fixed;

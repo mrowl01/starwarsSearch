@@ -8,7 +8,7 @@ class FormatResults extends Component{
 		return (
 			<div style = {{backgroundImage:`url(${backgroundImage})`, backgroundSize:'cover' }}
 			className = "body tc br1 pa5 ma2 b--solid  grow dib bw1 ">
-				<a href ={link+name} ><h2 style = {{background:'black', color:'white' }}> {name} </h2></a>
+				<a href ={link+name} ><h2 > {name} </h2></a>
 			</div>
 		)
 	}

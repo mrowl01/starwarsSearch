@@ -31,6 +31,7 @@ class App extends Component {
   }
   render() {
     return (
+      
       <div className = 'container tc'>
         <div className = '6rem'>
           <h1  > StarWars Info </h1>

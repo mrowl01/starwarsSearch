@@ -1,3 +1,8 @@
-.change{
-	background-color:red;
+h2{
+	background:black;
+	color:white;
+	font-family: 'Star Jedi Hollow Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Star Jedi Hollow Regular'), url('Starjhol.woff') format('woff');
 }
