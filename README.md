@@ -1,3 +1,8 @@
+-------------------- Star Wars Search --------------------<br/>
+Uses a starwars api (SWAPI) so user can enter a term and it will return matches in the starwars universe. The background of the returned results change backgrounds each time the search is done. If you click on the term it will redirect you to a website with more information on that subject. <br/>
+-------------------- Star Wars Search --------------------<br/>
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
